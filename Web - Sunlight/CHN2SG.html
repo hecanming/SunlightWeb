@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Optics Guide - Sunlight</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f8f9fa;
+            }
+            .navbar {
+                background-color: #990000;
+            }
+            .navbar-brand, .nav-link {
+                color: white !important;
+            }
+            .sidebar {
+                width: 250px;
+                background-color: #fff;
+                padding: 20px;
+                box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+                position: fixed;
+                height: 100%;
+                overflow-y: auto;
+            }
+            .sidebar h3 {
+                font-size: 1.2rem;
+                margin-bottom: 20px;
+                color: #990000;
+            }
+            .sidebar ul {
+                list-style: none;
+                padding: 0;
+            }
+            .sidebar ul li {
+                margin-bottom: 10px;
+            }
+            .sidebar ul li a {
+                text-decoration: none;
+                color: #333;
+                font-weight: 500;
+            }
+            .sidebar ul li a:hover {
+                color: #990000;
+            }
+            .main-content {
+                margin-left: 270px;
+                padding: 20px;
+            }
+            .section-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                gap: 20px;
+            }
+            .section-block {
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                transition: transform 0.2s, box-shadow 0.2s;
+            }
+            .section-block:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            }
+            .section-block h2 {
+                color: #990000;
+                margin-bottom: 15px;
+                font-size: 1.5rem;
+            }
+            .section-block img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 8px;
+                margin-bottom: 15px;
+            }
+            .section-block p {
+                line-height: 1.6;
+                color: #555;
+                margin-bottom: 15px;
+            }
+            .section-block a {
+                display: inline-block;
+                background-color: #990000;
+                color: white;
+                padding: 10px 20px;
+                border-radius: 5px;
+                text-decoration: none;
+                font-weight: bold;
+            }
+            .section-block a:hover {
+                background-color: #7a0000;
+            }
+            footer {
+                background-color: #333;
+                color: white;
+                text-align: center;
+                padding: 10px;
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Sunlight</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Support and Guide</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h3>Service Guide</h3>
+            <ul>
+                <li><a href="#introduction">Introduction to this service</a></li>
+                <li><a href="#Taobao">Taobao</a></li>
+                <li><a href="#Alibaba">Alibaba</a></li>
+                <li><a href="#Designated Brand">Designated Brand</a></li>
+                <li><a href="#Customization">Customization</a></li>
+            </ul>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <div class="section-grid">
+                <!-- Introduction Section -->
+                <div id="introduction" class="section-block">
+                    <h2>Introduction to to this service</h2>
+                    <img src="figures/optics.jpg" alt="Introduction to this service">
+                    <p>
+                        Optics is the branch of physics that studies the behavior and properties of light, including its interactions with matter and the construction of instruments that use or detect it. Optics usually describes the behavior of visible, ultraviolet, and infrared light.
+                    </p>
+                    <a href="#">Explore Optics Products</a>
+                </div>
+
+                <!-- Lenses Section -->
+                <div id="Taobao" class="section-block">
+                    <h2>Taobao</h2>
+                    <img src="https://via.placeholder.com/800x400" alt="Taobao">
+                    <p>
+                        Lenses are optical components that focus or disperse light beams. They are used in a variety of applications, including cameras, microscopes, and telescopes.
+                    </p>
+                    <a href="#">View Taobao</a>
+                </div>
+
+                <!-- Mirrors Section -->
+                <div id="Alibaba" class="section-block">
+                    <h2>Alibaba</h2>
+                    <img src="https://via.placeholder.com/800x400" alt="Alibaba">
+                    <p>
+                        Mirrors are surfaces that reflect light, creating images. They are used in applications such as telescopes, lasers, and optical instruments.
+                    </p>
+                    <a href="#">View Alibaba</a>
+                </div>
+
+                <!-- Filters Section -->
+                <div id="Designated Brand" class="section-block">
+                    <h2>Designated Brand</h2>
+                    <img src="https://via.placeholder.com/800x400" alt="Designated Brand">
+                    <p>
+                        Optical filters are devices that selectively transmit light of different wavelengths. They are used in applications such as photography, spectroscopy, and laser systems.
+                    </p>
+                    <a href="#">View Designated Brand</a>
+                </div>
+
+                <!-- Polarization Section -->
+                <div id="Customization" class="section-block">
+                    <h2>Customization</h2>
+                    <img src="https://via.placeholder.com/800x400" alt="Customization">
+                    <p>
+                        Polarization is a property of light that describes the orientation of its oscillations. Polarizing components, such as polarizers and waveplates, are used in applications like LCD screens and scientific research.
+                    </p>
+                    <a href="#">View Customization</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 OpticsLab. All Rights Reserved.</p>
+        </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
